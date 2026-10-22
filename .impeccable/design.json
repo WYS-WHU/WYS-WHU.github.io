@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-22T05:53:09.493981+00:00",
+  "title": "Design System: Yishan Wang Academic Homepage",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Charcoal Ink",
+        "tonalRamp": [
+          "oklch(15% 0.01048 216.83)",
+          "oklch(26% 0.01048 216.83)",
+          "oklch(38% 0.01048 216.83)",
+          "oklch(49% 0.01048 216.83)",
+          "oklch(61% 0.01048 216.83)",
+          "oklch(72% 0.01048 216.83)",
+          "oklch(84% 0.01048 216.83)",
+          "oklch(95% 0.01048 216.83)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate Gray",
+        "tonalRamp": [
+          "oklch(15% 0.01328 217.66)",
+          "oklch(26% 0.01328 217.66)",
+          "oklch(38% 0.01328 217.66)",
+          "oklch(49% 0.01328 217.66)",
+          "oklch(61% 0.01328 217.66)",
+          "oklch(72% 0.01328 217.66)",
+          "oklch(84% 0.01328 217.66)",
+          "oklch(95% 0.01328 217.66)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Ocean Teal",
+        "tonalRamp": [
+          "oklch(15% 0.06336 210.18)",
+          "oklch(26% 0.06336 210.18)",
+          "oklch(38% 0.06336 210.18)",
+          "oklch(49% 0.06336 210.18)",
+          "oklch(61% 0.06336 210.18)",
+          "oklch(72% 0.06336 210.18)",
+          "oklch(84% 0.06336 210.18)",
+          "oklch(95% 0.06336 210.18)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Deep Ocean Teal",
+        "tonalRamp": [
+          "oklch(15% 0.04966 211.57)",
+          "oklch(26% 0.04966 211.57)",
+          "oklch(38% 0.04966 211.57)",
+          "oklch(49% 0.04966 211.57)",
+          "oklch(61% 0.04966 211.57)",
+          "oklch(72% 0.04966 211.57)",
+          "oklch(84% 0.04966 211.57)",
+          "oklch(95% 0.04966 211.57)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Cool Rule",
+        "tonalRamp": [
+          "oklch(15% 0.00754 197.02)",
+          "oklch(26% 0.00754 197.02)",
+          "oklch(38% 0.00754 197.02)",
+          "oklch(49% 0.00754 197.02)",
+          "oklch(61% 0.00754 197.02)",
+          "oklch(72% 0.00754 197.02)",
+          "oklch(84% 0.00754 197.02)",
+          "oklch(95% 0.00754 197.02)"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Cool Figure Ground",
+        "tonalRamp": [
+          "oklch(15% 0.00425 197.09)",
+          "oklch(26% 0.00425 197.09)",
+          "oklch(38% 0.00425 197.09)",
+          "oklch(49% 0.00425 197.09)",
+          "oklch(61% 0.00425 197.09)",
+          "oklch(72% 0.00425 197.09)",
+          "oklch(84% 0.00425 197.09)",
+          "oklch(95% 0.00425 197.09)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "White Paper",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(26% 0.00000 0.00)",
+          "oklch(38% 0.00000 0.00)",
+          "oklch(49% 0.00000 0.00)",
+          "oklch(61% 0.00000 0.00)",
+          "oklch(72% 0.00000 0.00)",
+          "oklch(84% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "review-ink": {
+        "role": "secondary",
+        "displayName": "Review Ochre",
+        "tonalRamp": [
+          "oklch(15% 0.07159 90.51)",
+          "oklch(26% 0.07159 90.51)",
+          "oklch(38% 0.07159 90.51)",
+          "oklch(49% 0.07159 90.51)",
+          "oklch(61% 0.07159 90.51)",
+          "oklch(72% 0.07159 90.51)",
+          "oklch(84% 0.07159 90.51)",
+          "oklch(95% 0.07159 90.51)"
+        ]
+      },
+      "resource-hover": {
+        "role": "primary",
+        "displayName": "Pale Teal Wash",
+        "tonalRamp": [
+          "oklch(15% 0.00852 197.01)",
+          "oklch(26% 0.00852 197.01)",
+          "oklch(38% 0.00852 197.01)",
+          "oklch(49% 0.00852 197.01)",
+          "oklch(61% 0.00852 197.01)",
+          "oklch(72% 0.00852 197.01)",
+          "oklch(84% 0.00852 197.01)",
+          "oklch(95% 0.00852 197.01)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Profile name."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Publication titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Introductory reading text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Desktop section navigation."
+      },
+      "profile-degree": {
+        "displayName": "Profile degree/status",
+        "purpose": "Teal degree or study-status line, shared by current and incoming affiliations."
+      },
+      "profile-university": {
+        "displayName": "Profile university",
+        "purpose": "Strong institution line."
+      },
+      "profile-school": {
+        "displayName": "Profile school",
+        "purpose": "Muted school line."
+      },
+      "profile-date": {
+        "displayName": "Profile date",
+        "purpose": "Muted italic study date, using tabular numerals."
+      }
+    },
+    "shadows": [
+      {
+        "name": "figure-dialog",
+        "value": "0 14px 70px #101a2440",
+        "purpose": "The figure inspection modal only; ordinary records stay flat."
+      }
+    ],
+    "motion": [
+      {
+        "name": "figure-open",
+        "value": "160ms cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Scale .98 / opacity .65 to scale 1 / opacity 1; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1160px"
+      },
+      {
+        "name": "navigation-and-figure-stack",
+        "value": "1000px"
+      },
+      {
+        "name": "single-column",
+        "value": "720px"
+      },
+      {
+        "name": "desktop-sticky-start",
+        "value": "1001px"
+      },
+      {
+        "name": "short-desktop-height",
+        "value": "850px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Resource link",
+      "kind": "button",
+      "refersTo": "resource-link",
+      "description": "Quiet filled external-link action; the underlying element remains a link.",
+      "html": "<div class=\"ds-preview\"><a href=\"https://modelscope.cn/datasets/wyswyswys/TC-SAR-Coast\" class=\"ds-resource-link\" target=\"_blank\" rel=\"noopener noreferrer\">ModelScope dataset<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 4h6v6m0-6-9 9M10 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5\"/></svg></a></div>",
+      "css": ".ds-preview { color: var(--color-ink, #252c2e); font-family: var(--font-body, \"Source Sans 3\", \"Segoe UI\", sans-serif); font-size: 17px; line-height: 1.62; } .ds-preview a { color: var(--color-accent, #215e68); text-decoration-thickness: 1px; text-underline-offset: 3px; } .ds-preview a:hover { color: var(--color-accent-hover, #123f47); } .ds-preview a:focus-visible, .ds-preview button:focus-visible { outline: 2px solid var(--color-accent, #215e68); outline-offset: 5px; border-radius: 2px; } .ds-preview button { font: inherit; cursor: pointer; } .ds-preview h3 { margin: 0; font-weight: 600; line-height: 1.35; } .ds-preview p { margin: 0 0 15px; } .ds-preview strong { font-weight: 600; }\n.ds-resource-link { padding: 7px 12px; background: var(--color-soft, #f3f7f7); font-size: 14px; display: inline-flex; align-items: center; gap: 7px; text-decoration: none; border-radius: 3px; }\n.ds-resource-link:hover { background: #e8f0f0; }\n"
+    },
+    {
+      "name": "Section navigation",
+      "kind": "nav",
+      "refersTo": "navigation-link",
+      "description": "Desktop section links with the actual current-section treatment.",
+      "html": "<div class=\"ds-preview\"><nav class=\"ds-primary-nav\" aria-label=\"Main navigation\">\n        <a href=\"#about\" aria-current=\"location\">About</a>\n        <a href=\"#publications\">Publications</a>\n        <a href=\"#open-source\">Open source</a>\n        <a href=\"#experience\">Experience</a>\n        <a href=\"#education\">Education</a>\n        <a href=\"#honors\">Honors</a>\n        <a href=\"#beyond\">Beyond research</a>\n      </nav></div>",
+      "css": ".ds-preview { color: var(--color-ink, #252c2e); font-family: var(--font-body, \"Source Sans 3\", \"Segoe UI\", sans-serif); font-size: 17px; line-height: 1.62; } .ds-preview a { color: var(--color-accent, #215e68); text-decoration-thickness: 1px; text-underline-offset: 3px; } .ds-preview a:hover { color: var(--color-accent-hover, #123f47); } .ds-preview a:focus-visible, .ds-preview button:focus-visible { outline: 2px solid var(--color-accent, #215e68); outline-offset: 5px; border-radius: 2px; } .ds-preview button { font: inherit; cursor: pointer; } .ds-preview h3 { margin: 0; font-weight: 600; line-height: 1.35; } .ds-preview p { margin: 0 0 15px; } .ds-preview strong { font-weight: 600; }\n.ds-primary-nav { display: flex; align-items: center; gap: 22px; }\n.ds-primary-nav a { color: var(--color-muted, #596366); font-size: 14px; font-weight: 500; text-decoration: none; white-space: nowrap; padding: 25px 0 23px; border-bottom: 2px solid transparent; }\n.ds-primary-nav a:hover, .ds-primary-nav a[aria-current] { color: var(--color-accent, #215e68); border-bottom-color: var(--color-accent, #215e68); }\n.ds-primary-nav { flex-wrap: wrap; }"
+    },
+    {
+      "name": "Sections menu control",
+      "kind": "button",
+      "refersTo": "menu-toggle",
+      "description": "Static preview of the mobile disclosure control; behavior stays in site/main.js.",
+      "html": "<div class=\"ds-preview\"><button class=\"ds-menu-toggle\" type=\"button\" aria-expanded=\"false\">Sections <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button></div>",
+      "css": ".ds-preview { color: var(--color-ink, #252c2e); font-family: var(--font-body, \"Source Sans 3\", \"Segoe UI\", sans-serif); font-size: 17px; line-height: 1.62; } .ds-preview a { color: var(--color-accent, #215e68); text-decoration-thickness: 1px; text-underline-offset: 3px; } .ds-preview a:hover { color: var(--color-accent-hover, #123f47); } .ds-preview a:focus-visible, .ds-preview button:focus-visible { outline: 2px solid var(--color-accent, #215e68); outline-offset: 5px; border-radius: 2px; } .ds-preview button { font: inherit; cursor: pointer; } .ds-preview h3 { margin: 0; font-weight: 600; line-height: 1.35; } .ds-preview p { margin: 0 0 15px; } .ds-preview strong { font-weight: 600; }\n\n.ds-menu-toggle { display: inline-flex; align-items: center; gap: 8px; padding: 8px 0 8px 14px; color: var(--color-accent, #215e68); border: 0; background: transparent; font-size: 14px; min-height: 44px; }"
+    },
+    {
+      "name": "Figure close control",
+      "kind": "button",
+      "refersTo": "dialog-close",
+      "description": "Transparent square close control with the source hover and keyboard-focus states.",
+      "html": "<div class=\"ds-preview\"><button class=\"ds-dialog-close\" type=\"button\" aria-label=\"Close enlarged figure\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"m6 6 12 12M18 6 6 18\"/></svg></button></div>",
+      "css": ".ds-preview { color: var(--color-ink, #252c2e); font-family: var(--font-body, \"Source Sans 3\", \"Segoe UI\", sans-serif); font-size: 17px; line-height: 1.62; } .ds-preview a { color: var(--color-accent, #215e68); text-decoration-thickness: 1px; text-underline-offset: 3px; } .ds-preview a:hover { color: var(--color-accent-hover, #123f47); } .ds-preview a:focus-visible, .ds-preview button:focus-visible { outline: 2px solid var(--color-accent, #215e68); outline-offset: 5px; border-radius: 2px; } .ds-preview button { font: inherit; cursor: pointer; } .ds-preview h3 { margin: 0; font-weight: 600; line-height: 1.35; } .ds-preview p { margin: 0 0 15px; } .ds-preview strong { font-weight: 600; }\n.ds-dialog-close { background: transparent; color: var(--color-ink, #252c2e); border: 0; width: 44px; height: 44px; display: grid; place-items: center; flex-shrink: 0; }\n.ds-dialog-close:hover { background: var(--color-soft, #f3f7f7); }\n"
+    },
+    {
+      "name": "Publication text record",
+      "kind": "custom",
+      "refersTo": "publication-record",
+      "description": "Actual publication text column with confirmed equal-contribution (*) and corresponding-author (dagger) superscripts.",
+      "html": "<div class=\"ds-preview\"><article class=\"ds-publication-text\"><div class=\"ds-publication-content\"><h3><a href=\"https://openaccess.thecvf.com/content/CVPR2026/html/Xu_MS2Gait_A_Multi-Scale_Spatio-Temporal_Fusion_Network_for_LiDAR-based_Gait_Recognition_CVPR_2026_paper.html\" target=\"_blank\" rel=\"noopener noreferrer\">MS²Gait: A Multi-Scale Spatio-Temporal Fusion Network for LiDAR-based Gait Recognition</a></h3><p class=\"ds-publication-authors\">Shenyin Xu<sup title=\"Equal contribution\">*</sup>, <strong>Yishan Wang</strong><sup title=\"Equal contribution\">*</sup>, Xinyu Li, Rui Liu<sup title=\"Corresponding author\">†</sup>, Zhongyuan Wang, Xin Tian<sup title=\"Corresponding author\">†</sup></p><p class=\"ds-publication-venue\">CVPR 2026</p><p class=\"ds-publication-summary\">A multi-scale spatio-temporal framework for LiDAR gait recognition that combines complementary spatial interactions with similarity-based temporal enhancement.</p><div class=\"ds-publication-links\"><a href=\"https://openaccess.thecvf.com/content/CVPR2026/html/Xu_MS2Gait_A_Multi-Scale_Spatio-Temporal_Fusion_Network_for_LiDAR-based_Gait_Recognition_CVPR_2026_paper.html\" target=\"_blank\" rel=\"noopener noreferrer\">Paper<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 4h6v6m0-6-9 9M10 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5\"/></svg></a><a href=\"https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MS2Gait_A_Multi-Scale_Spatio-Temporal_Fusion_Network_for_LiDAR-based_Gait_Recognition_CVPR_2026_paper.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 4h6v6m0-6-9 9M10 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5\"/></svg></a></div></div></article></div>",
+      "css": ".ds-preview { color: var(--color-ink, #252c2e); font-family: var(--font-body, \"Source Sans 3\", \"Segoe UI\", sans-serif); font-size: 17px; line-height: 1.62; } .ds-preview a { color: var(--color-accent, #215e68); text-decoration-thickness: 1px; text-underline-offset: 3px; } .ds-preview a:hover { color: var(--color-accent-hover, #123f47); } .ds-preview a:focus-visible, .ds-preview button:focus-visible { outline: 2px solid var(--color-accent, #215e68); outline-offset: 5px; border-radius: 2px; } .ds-preview button { font: inherit; cursor: pointer; } .ds-preview h3 { margin: 0; font-weight: 600; line-height: 1.35; } .ds-preview p { margin: 0 0 15px; } .ds-preview strong { font-weight: 600; }\n.ds-publication-authors { font-size: 14px; line-height: 1.5; margin: 7px 0 6px; color: var(--color-muted, #596366); }\n.ds-publication-authors strong { color: var(--color-ink, #252c2e); }\n.ds-publication-authors sup { font-size: 12px; top: -.2em; position: relative; }\n.ds-publication-venue { color: var(--color-accent, #215e68); font-size: 14px; font-weight: 600; line-height: 1.4; margin: 7px 0; }\n.ds-publication-venue.ds-is-review { color: #665523; }\n.ds-publication-summary { font-size: 14px; line-height: 1.55; color: var(--color-muted, #596366); margin: 8px 0 9px; }\n.ds-publication-links { display: flex; flex-wrap: wrap; gap: 4px 15px; font-size: 14px; }\n.ds-publication-links a { min-height: 30px; display: inline-flex; align-items: center; gap: 4px; }\n.ds-publication-text h3 { font-size: 17px; line-height: 1.4; } .ds-publication-text h3 a { color: var(--color-ink, #252c2e); text-decoration: none; } .ds-publication-text h3 a:hover { color: var(--color-accent, #215e68); text-decoration: underline; }"
+    },
+    {
+      "name": "Education record",
+      "kind": "custom",
+      "refersTo": "education-record",
+      "description": "Institution, school, teal degree/program, and italic date hierarchy from the current generator.",
+      "html": "<div class=\"ds-preview\"><article class=\"ds-record ds-education-record\"><div><h3>Tsinghua University <span class=\"ds-record-tag\">Incoming</span></h3><p class=\"ds-education-school\">Tsinghua Shenzhen International Graduate School</p><p class=\"ds-record-subtitle ds-education-degree\">Master of Engineering · Electronic Information (Large Model Science and Engineering)</p></div><time datetime=\"2027-09\">From Sep 2027</time><div class=\"ds-record-detail\"><p class=\"ds-education-lab\"><a href=\"https://www.thuhpgc.net/\" target=\"_blank\" rel=\"noopener noreferrer\">High Performance Geo-Computing (HPGC)</a> · Prof. Haohuan Fu's lab</p></div></article></div>",
+      "css": ".ds-preview { color: var(--color-ink, #252c2e); font-family: var(--font-body, \"Source Sans 3\", \"Segoe UI\", sans-serif); font-size: 17px; line-height: 1.62; } .ds-preview a { color: var(--color-accent, #215e68); text-decoration-thickness: 1px; text-underline-offset: 3px; } .ds-preview a:hover { color: var(--color-accent-hover, #123f47); } .ds-preview a:focus-visible, .ds-preview button:focus-visible { outline: 2px solid var(--color-accent, #215e68); outline-offset: 5px; border-radius: 2px; } .ds-preview button { font: inherit; cursor: pointer; } .ds-preview h3 { margin: 0; font-weight: 600; line-height: 1.35; } .ds-preview p { margin: 0 0 15px; } .ds-preview strong { font-weight: 600; }\n.ds-record { display: grid; grid-template-columns: minmax(0, 1fr) 142px; column-gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--color-rule, #dce3e3); }\n.ds-record:first-child { padding-top: 0; }\n.ds-record:last-child { border-bottom: 0; padding-bottom: 0; }\n.ds-record h3 { font-size: 18px; }\n.ds-record time { grid-column: 2; grid-row: 1 / 3; text-align: right; color: var(--color-muted, #596366); font-size: 13px; padding-top: 2px; font-variant-numeric: tabular-nums; }\n.ds-record-subtitle { font-size: 15px; margin: 5px 0 3px; }\n.ds-education-school { font-size: 14px; color: var(--color-muted, #596366); margin: 4px 0; }\n.ds-education-degree { color: var(--color-accent, #215e68); font-weight: 500; }\n.ds-education-lab { margin: 5px 0 0; }\n.ds-record time { font-style: italic; }\n.ds-record-detail { font-size: 14px; color: var(--color-muted, #596366); margin: 4px 0 0; line-height: 1.6; grid-column: 1 / -1; }\n.ds-record-tag { font-size: 12px; margin-left: 7px; font-weight: 500; color: var(--color-accent, #215e68); }\n.ds-record-highlights { padding-left: 18px; font-size: 14px; color: var(--color-muted, #596366); margin: 8px 0 0; }\n.ds-record-highlights li { padding-left: 2px; margin: 3px 0; }\n@media (max-width: 720px) { .ds-record { grid-template-columns: 1fr; gap: 0; padding: 22px 0; } .ds-record time { grid-column: 1; grid-row: auto; text-align: left; padding-top: 0; margin-bottom: 7px; order: -1; } .ds-record-detail { grid-column: 1; } }"
+    },
+    {
+      "name": "Open resource container",
+      "kind": "card",
+      "refersTo": "resource-container",
+      "description": "Flat ruled resource block with normal-scale platform counts and no visible statistics-date annotation.",
+      "html": "<div class=\"ds-preview\"><div class=\"ds-resource\">\n      <h3>TC-SAR-Coast · TyphoonSAR-Copilot</h3>\n      <p>An event-based Sentinel-1 IW SAR dataset and an open GeoAI system for coastal tropical-cyclone wind-structure analysis, scene exploration, and evidence-grounded scientific questions.</p>\n      <p class=\"ds-resource-inventory\">277 tropical-cyclone events · 3,128 SAR scenes · Event-based, traceable records</p>\n      <div class=\"ds-resource-links\"><a href=\"https://modelscope.cn/datasets/wyswyswys/TC-SAR-Coast\" class=\"ds-resource-link\" target=\"_blank\" rel=\"noopener noreferrer\">ModelScope dataset<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 4h6v6m0-6-9 9M10 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5\"/></svg></a><a href=\"https://modelscope.cn/studios/wyswyswys/TyphoonSAR-Copilot\" class=\"ds-resource-link\" target=\"_blank\" rel=\"noopener noreferrer\">Explore the Studio<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 4h6v6m0-6-9 9M10 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5\"/></svg></a><a href=\"https://zenodo.org/records/20569238\" class=\"ds-resource-link\" target=\"_blank\" rel=\"noopener noreferrer\">Zenodo archive<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 4h6v6m0-6-9 9M10 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5\"/></svg></a></div>\n      <p class=\"ds-resource-metrics\"><a href=\"https://modelscope.cn/datasets/wyswyswys/TC-SAR-Coast\" target=\"_blank\" rel=\"noopener noreferrer\"><strong data-metric-id=\"modelscope-dataset-downloads\">31,450</strong> dataset downloads</a> · <a href=\"https://modelscope.cn/studios/wyswyswys/TyphoonSAR-Copilot\" target=\"_blank\" rel=\"noopener noreferrer\"><strong data-metric-id=\"modelscope-studio-visits\">2,131</strong> Studio visits</a></p>\n    </div></div>",
+      "css": ".ds-preview { color: var(--color-ink, #252c2e); font-family: var(--font-body, \"Source Sans 3\", \"Segoe UI\", sans-serif); font-size: 17px; line-height: 1.62; } .ds-preview a { color: var(--color-accent, #215e68); text-decoration-thickness: 1px; text-underline-offset: 3px; } .ds-preview a:hover { color: var(--color-accent-hover, #123f47); } .ds-preview a:focus-visible, .ds-preview button:focus-visible { outline: 2px solid var(--color-accent, #215e68); outline-offset: 5px; border-radius: 2px; } .ds-preview button { font: inherit; cursor: pointer; } .ds-preview h3 { margin: 0; font-weight: 600; line-height: 1.35; } .ds-preview p { margin: 0 0 15px; } .ds-preview strong { font-weight: 600; }\n.ds-resource { border-top: 1px solid var(--color-rule, #dce3e3); border-bottom: 1px solid var(--color-rule, #dce3e3); padding: 24px 0; }\n.ds-resource h3 { font-family: var(--font-heading, \"Source Serif 4\", Georgia, serif); font-size: 23px; line-height: 1.35; margin-bottom: 12px; }\n.ds-resource p { font-size: 16px; line-height: 1.65; max-width: 70ch; }\n.ds-resource-inventory { color: var(--color-muted, #596366); font-size: 14px !important; font-variant-numeric: tabular-nums; }\n.ds-resource-links { display: flex; flex-wrap: wrap; gap: 8px 12px; margin-top: 18px; }\n.ds-resource-link { padding: 7px 12px; background: var(--color-soft, #f3f7f7); font-size: 14px; display: inline-flex; align-items: center; gap: 7px; text-decoration: none; border-radius: 3px; }\n.ds-resource-link:hover { background: #e8f0f0; }\n.ds-resource-metrics { margin: 20px 0 0 !important; font-size: 14px !important; font-variant-numeric: tabular-nums; }\n"
+    },
+    {
+      "name": "Concise profile biography",
+      "kind": "custom",
+      "refersTo": "profile-bio",
+      "description": "Two short identity sentences with Wuhan location. Independent of Education records.",
+      "html": "<div class=\"ds-profile-bio\"><p>Undergraduate in Electronic Information Engineering, Wuhan University.</p><p>Incoming master's student in Large Model Science and Engineering, Tsinghua University (Sep 2027).</p><p>Wuhan, China</p></div>",
+      "css": ".ds-profile-bio { color: #596366; font-family: \"Source Sans 3\", sans-serif; font-size: 14px; line-height: 1.55; } .ds-profile-bio p { margin: 0 0 9px; }"
+    },
+    {
+      "name": "Section heading",
+      "kind": "custom",
+      "refersTo": "section-heading",
+      "description": "Serif heading with the source thin-line SVG and wrapping author-symbol legend.",
+      "html": "<div class=\"ds-preview\"><div class=\"ds-section-heading\"><h2><svg width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 3h11l5 5v13H4V3Zm11 0v6h5M8 13h8M8 17h6\"/></svg>Selected publications</h2><span class=\"ds-section-note\">* Equal contribution · † Corresponding author</span></div></div>",
+      "css": ".ds-preview { color: var(--color-ink, #252c2e); font-family: var(--font-body, \"Source Sans 3\", \"Segoe UI\", sans-serif); font-size: 17px; line-height: 1.62; } .ds-preview a { color: var(--color-accent, #215e68); text-decoration-thickness: 1px; text-underline-offset: 3px; } .ds-preview a:hover { color: var(--color-accent-hover, #123f47); } .ds-preview a:focus-visible, .ds-preview button:focus-visible { outline: 2px solid var(--color-accent, #215e68); outline-offset: 5px; border-radius: 2px; } .ds-preview button { font: inherit; cursor: pointer; } .ds-preview h3 { margin: 0; font-weight: 600; line-height: 1.35; } .ds-preview p { margin: 0 0 15px; } .ds-preview strong { font-weight: 600; }\nsection > h2, .ds-section-heading { margin-bottom: 22px; }\n.ds-section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; }\n.ds-section-note { font-size: 12px; color: var(--color-muted, #596366); }\n.ds-section-heading { flex-wrap: wrap; gap: 8px 18px; }\n.ds-section-heading h2 { margin: 0; font-family: var(--font-heading, \"Source Serif 4\", Georgia, serif); font-size: 28px; line-height: 1.24; font-weight: 600; letter-spacing: -.025em; } .ds-section-heading h2 > svg { display: inline-block; vertical-align: -1px; margin-right: 10px; color: var(--color-accent, #215e68); flex-shrink: 0; } @media (max-width: 720px) { .ds-section-heading h2 { font-size: 26px; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Scholarly Profile",
+    "overview": "An understated, content-rich academic homepage, grounded in the user's selected scholarly references. White space, readable research records, a personal portrait, and direct links provide the visual identity. The built system is restrained and useful, with a compact identity rail beside an open reading column on larger screens.\n\nSerif names and section headings establish hierarchy; sans-serif paragraphs and metadata keep the research record easy to scan. Original scientific figures are evidence to inspect, rather than decorative hero artwork. The English interface retains the supplied Chinese personal name as an identity detail.",
+    "keyCharacteristics": [
+      "White ground, dark readable text, restrained ocean-teal links.",
+      "Serif identity and section headings; sans-serif research records.",
+      "Fine rules and open rows rather than a repeated card grid.",
+      "Supplied portrait and uncropped scientific diagrams.",
+      "Mobile reading order with the profile above the research record."
+    ],
+    "rules": [
+      {
+        "name": "The Link Accent Rule",
+        "body": "Teal identifies navigation, links, and compact research metadata; the reading field stays white.",
+        "section": "colors"
+      },
+      {
+        "name": "The Heading Pair Rule",
+        "body": "Serif type belongs to personal identity, section headings, and the resource title; research titles and metadata remain sans-serif.",
+        "section": "typography"
+      },
+      {
+        "name": "The Inspection Depth Rule",
+        "body": "Elevation supports enlarged figure inspection; ordinary research records stay flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the white reading field, restrained teal links, and fine rule separators.",
+      "Do use the serif/sans-serif role split and the existing compact metadata hierarchy.",
+      "Do preserve the supplied portrait and contain scientific diagrams without cropping their content.",
+      "Do retain visible status text, direct links, keyboard focus, and reduced-motion behavior.",
+      "Do let the identity rail and records reflow into the mobile reading order."
+    ],
+    "donts": [
+      "Don't turn the academic reading page into a marketing hero or a repeated raised-card grid.",
+      "Don't replace original figures with decorative artwork or oversize platform counts.",
+      "Don't use color alone to distinguish publication or affiliation status.",
+      "Don't substitute glyph characters for the existing SVG icon language."
+    ]
+  }
+}

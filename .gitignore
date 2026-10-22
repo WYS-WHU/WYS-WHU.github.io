@@ -1,0 +1,32 @@
+# Original personal documents and extraction evidence are not website assets.
+/work/
+/*.pdf
+/*.pptx
+/*.png
+~$*
+__pycache__/
+*.pyc
+# Generated website output and private design/QA state.
+/dist/
+/.impeccable/*
+!/.impeccable/design.json
+/content/sources.json
+/CONTENT_REVIEW.md
+# Only selected public material under content/ and assets/ should enter a site build.
+
+# Publish only explicitly selected website images.
+/assets/images/**
+!/assets/images/
+!/assets/images/logos/
+!/assets/images/publications/
+!/assets/images/photo.png
+!/assets/images/publications/ms2gait.png
+!/assets/images/publications/intermc.png
+!/assets/images/publications/tc-sar-coast.png
+!/assets/images/publications/tc-sar-wave.png
+!/assets/images/logos/tsinghua-university.jpg
+!/assets/images/logos/wuhan-university.png
+!/assets/images/logos/hpgc.png
+!/assets/images/logos/captain.png
+!/assets/images/banner_TyphoonSAR-Copilot.png
+!/assets/images/logos/SOURCES.md

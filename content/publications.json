@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-22",
+  "scope": "Four selected papers. TC-SAR-Wave is accepted; TC-SAR-Coast remains an ESSD Discussions preprint.",
+  "author_highlight": "Yishan Wang",
+  "items": [
+    {
+      "id": "ms2gait",
+      "title": "MS²Gait: A Multi-Scale Spatio-Temporal Fusion Network for LiDAR-based Gait Recognition",
+      "title_plain": "MS^2Gait: A Multi-Scale Spatio-Temporal Fusion Network for LiDAR-based Gait Recognition",
+      "authors": [
+        "Shenyin Xu",
+        "Yishan Wang",
+        "Xinyu Li",
+        "Rui Liu",
+        "Zhongyuan Wang",
+        "Xin Tian"
+      ],
+      "equal_contribution_authors": [
+        "Shenyin Xu",
+        "Yishan Wang"
+      ],
+      "corresponding_authors": [
+        "Rui Liu",
+        "Xin Tian"
+      ],
+      "self_author_position": 2,
+      "self_role": "Co-first Author",
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "year": 2026,
+      "status": "published",
+      "status_label": "CVPR, 2026",
+      "presentation": "Poster (per supplied publication table)",
+      "summary": "A multi-scale spatio-temporal framework for LiDAR gait recognition that combines complementary spatial interactions with similarity-based temporal enhancement.",
+      "links": {
+        "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_MS2Gait_A_Multi-Scale_Spatio-Temporal_Fusion_Network_for_LiDAR-based_Gait_Recognition_CVPR_2026_paper.html",
+        // "pdf": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MS2Gait_A_Multi-Scale_Spatio-Temporal_Fusion_Network_for_LiDAR-based_Gait_Recognition_CVPR_2026_paper.pdf",
+        "pdf": null,
+        "code": null
+      },
+      "image": {
+        "path": "assets/images/publications/ms2gait.png",
+        "figure": 2,
+        "pdf_page": 3,
+        "alt": "MS²Gait network architecture with spatial interaction and temporal enhancement modules"
+      },
+      "sources": [
+        "papers-table",
+        "ms2gait-pdf",
+        "cvpr-paper"
+      ],
+      "metadata_complete": true,
+      "visible": true,
+      "short_title": "MS²Gait"
+    },
+    {
+      "id": "intermc",
+      "title": "Intermodal correlation modeling for incomplete multi-modal learning in land use and land cover classification",
+      "authors": [
+        "Yini Peng",
+        "Rui Liu",
+        "Zhiyuan Zhang",
+        "Yishan Wang",
+        "Yi Gao",
+        "Xin Tian"
+      ],
+      "equal_contribution_authors": [],
+      "corresponding_authors": [
+        "Xin Tian"
+      ],
+      "self_author_position": 4,
+      "self_role": "Fourth Author",
+      "venue": "Pattern Recognition",
+      "volume": "172",
+      "article_number": "112741",
+      "year": 2026,
+      "online_date": "2025-11-20",
+      "issue_date": "2026-04",
+      "status": "published",
+      "status_label": "Pattern Recognition, 2026",
+      "summary": "InterMC models shared and modality-specific features and their correlations to improve robust land-use and land-cover classification when sensing modalities are missing.",
+      "links": {
+        "paper": "https://doi.org/10.1016/j.patcog.2025.112741",
+        "publisher": "https://www.sciencedirect.com/science/article/abs/pii/S0031320325014049",
+        "pdf": null,
+        "code": null
+      },
+      "image": {
+        "path": "assets/images/publications/intermc.png",
+        "figure": 2,
+        "pdf_page": 5,
+        "alt": "InterMC overall framework and network architecture"
+      },
+      "sources": [
+        "papers-table",
+        "intermc-pdf",
+        "intermc-crossref"
+      ],
+      "metadata_complete": true,
+      "date_note": "Use 2026 for the journal citation; retain 20 November 2025 as the online publication date.",
+      "visible": true,
+      "short_title": "InterMC"
+    },
+    {
+      "id": "tc-sar-coast",
+      "title": "TC-SAR-Coast: an event-based Sentinel-1 SAR dataset with high-resolution wind fields for coastal tropical cyclones",
+      "authors": [
+        "Yuting Zhu",
+        "Yishan Wang",
+        "Shanshan Mu",
+        "Yingying Liu",
+        "Weijia Li",
+        "Lei Ren",
+        "Xiaofeng Li",
+        "Haohuan Fu"
+      ],
+      "equal_contribution_authors": [],
+      "corresponding_authors": [
+        "Xiaofeng Li",
+        "Haohuan Fu"
+      ],
+      "self_author_position": 2,
+      "self_role": "Second Author",
+      "venue": "Earth System Science Data Discussions",
+      "target_journal": "Earth System Science Data (ESSD)",
+      "year": 2026,
+      "preprint_date": "2026-08-06",
+      "status": "preprint_under_review",
+      "status_label": "ESSD preprint · Under discussions",
+      // "summary": "An event-based, quality-aware coastal tropical-cyclone SAR archive linking 277 events and 3,128 scenes with provenance, storm context, and high-resolution wind products.",
+      "summary": "An event-based, quality-aware coastal tropical-cyclone SAR archive linking 277 events and 3,128 scenes with provenance, storm context, and high-resolution wind products.",
+      "links": {
+        "paper": "https://essd.copernicus.org/preprints/essd-2026-465/",
+        "doi": "https://doi.org/10.5194/essd-2026-465",
+        "pdf":null,
+        // "pdf": "https://essd.copernicus.org/preprints/essd-2026-465/essd-2026-465.pdf",
+        "dataset": "https://doi.org/10.5281/zenodo.20569238",
+        "modelscope": "https://modelscope.cn/datasets/wyswyswys/TC-SAR-Coast",
+        "studio": "https://modelscope.cn/studios/wyswyswys/TyphoonSAR-Copilot"
+      },
+      "image": {
+        "path": "assets/images/publications/tc-sar-coast.png",
+        "figure": 1,
+        "pdf_page": 6,
+        "alt": "TC-SAR-Coast construction workflow and L0–L3 data hierarchy"
+      },
+      "sources": [
+        "user-current",
+        "papers-table",
+        "coast-preprint",
+        "coast-pdf"
+      ],
+      "metadata_complete": true,
+      "editorial_note": "Do not label this as accepted or published in ESSD. The Zenodo dataset's creator list is distinct from the manuscript's author list.",
+      "visible": true,
+      "short_title": "TC-SAR-Coast"
+    },
+    {
+      "id": "tc-sar-wave",
+      "display_authors": true,
+      "title": "TC-SAR-Wave: An event-based Sentinel-1 SAR-derived significant wave height dataset for tropical cyclones",
+      "authors": [
+        "Yuting Zhu",
+        "Shanshan Mu",
+        "Yishan Wang",
+        "Yuxin Fang",
+        "Weijia Li",
+        "Xiaoqing Wang",
+        "Haohuan Fu"
+      ],
+      "equal_contribution_authors": [],
+      "corresponding_authors": [
+        "Yuting Zhu"
+      ],
+      "self_author_position": 3,
+      "self_role": "Third Author (per supplied publication table)",
+      "venue": "Data Express in Ocean Sciences (DEOS)",
+      "target_journal": "Data Express in Ocean Sciences (DEOS)",
+      "year": 2026,
+      "status": "accepted",
+      "status_label": "Data Express in Ocean Sciences, 2026",
+      "submission_date": "2026-09-14",
+      "summary": "",
+      "links": {
+        "paper": null,
+        "preprint": null,
+        "doi": null,
+        "dataset": null,
+        "code": null
+      },
+      "image": {
+        "path": "assets/images/publications/tc-sar-wave.png",
+        "figure": 3,
+        "pdf_page": 10,
+        "alt": "SAR-WaveNet architecture and residual calibration module"
+      },
+      "sources": [
+        "user-current",
+        "papers-table",
+        "wave-pdf"
+      ],
+      "metadata_complete": false,
+      "missing": [
+        "Public paper or dataset URL, if available"
+      ],
+      "editorial_note": "Accepted status and ordered author list supplied by the user on 2026-10-22. Yuting Zhu is first and corresponding author. Public article URL and acceptance date are not supplied; do not invent them.",
+      "visible": true,
+      "short_title": "TC-SAR-Wave"
+    }
+  ]
+}

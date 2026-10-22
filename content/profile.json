@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-22",
+  "language": "en",
+  "name": {
+    "en": "Yishan Wang",
+    "zh": "王一山"
+  },
+  "headline": "Undergraduate at Wuhan University · Incoming Master's Student at Tsinghua SIGS (September 2027)",
+  "email": "wang_ysys@163.com",
+  "links": {
+    "github": "https://github.com/WYS-WHU",
+    "modelscope": "https://www.modelscope.cn/profile/wyswyswys",
+    "google_scholar": null,
+    "orcid": null,
+    "cv": null
+  },
+  "portrait": {
+    "path": "assets/images/photo.png",
+    "alt": "Portrait of Yishan Wang",
+    "approved_by_user": true
+  },
+  "research_interests": [
+    "Computer Vision",
+    "Multimodal Large Models",
+    "Ocean and Atmospheric Remote Sensing"
+  ],
+  "about": [
+    "I am an undergraduate in Electronic Information Engineering at Wuhan University. I will join Tsinghua Shenzhen International Graduate School in September 2027 for a two-year master's program in Large Model Science and Engineering.",
+    "My research interests span computer vision, multimodal large models, and ocean and atmospheric remote sensing. I am currently supervised by Dr. Yuting Zhu in Prof. Haohuan Fu's HPGC group at Tsinghua University. Previously, I was supervised by Dr. Chao Pang in Prof. Gui-Song Xia's CAPTAIN group at Wuhan University."
+  ],
+  "education": [
+    {
+      "id": "tsinghua-masters",
+      "institution": "Tsinghua University",
+      "school": "Tsinghua Shenzhen International Graduate School",
+      "program_zh_official": "电子信息（大模型科学与工程）",
+      "program_en": "Electronic Information (Large Model Science and Engineering)",
+      "program_en_is_editorial_translation": true,
+      "degree_zh_official": "电子信息工程硕士学位",
+      "degree_en": "Master of Engineering",
+      "subject_code": "085400",
+      "start": "2027-09",
+      "end": null,
+      "duration_years": 2,
+      "status": "incoming",
+      "sources": [
+        "user-current",
+        "user-clarification",
+        "tsinghua-program",
+        "resume"
+      ],
+      "profile_label": "Incoming Master's Student",
+      "logo": {
+        "path": "assets/images/logos/tsinghua-university.jpg",
+        "alt": "Tsinghua University emblem"
+      }
+    },
+    {
+      "id": "whu-undergraduate",
+      "institution": "Wuhan University",
+      "school": "Electronic Information School",
+      "program": "Electronic Information Engineering",
+      "program_zh": "电子信息工程",
+      "class": "Zhuguang Innovation Talent Pilot Class",
+      "class_en_is_editorial_translation": true,
+      "start": "2023",
+      "end": null,
+      "status": "undergraduate",
+      "highlights": [
+        "GPA: 3.98/4.00; ranked 1/277",
+        "Postgraduate recommendation score: 99.4195; ranked 1/517"
+      ],
+      "sources": [
+        "resume",
+        "self-introduction-ppt",
+        "user-current"
+      ],
+      "profile_label": "Undergraduate",
+      "logo": {
+        "path": "assets/images/logos/wuhan-university.png",
+        "alt": "Wuhan University emblem"
+      }
+    }
+  ],
+  "research_experience": [
+    {
+      "id": "hpgc",
+      "role": "Research Intern",
+      "group": "High Performance Geo-Computing (HPGC)",
+      "institution": "Tsinghua University",
+      "lab_lead": "Haohuan Fu",
+      "mentor": "Yuting Zhu",
+      "start": "2026-03",
+      "end": null,
+      "focus": "Ocean Remote Sensing",
+      "summary": "Event-based tropical-cyclone SAR datasets and downstream analysis.",
+      "contributions": [
+        "SAR data collection, processing, analysis, and quality assessment",
+        "Retrieval model development, loss design, training, and evaluation",
+        "Scientific writing, figures, and interactive analysis tools"
+      ],
+      "sources": [
+        "user-current",
+        "resume",
+        "coast-preprint",
+        "modelscope-dataset",
+        "modelscope-studio"
+      ],
+      "group_url": "https://www.thuhpgc.net/",
+      "supervision": "Supervised by Dr. Yuting Zhu",
+      "logo": {
+        "path": "assets/images/logos/hpgc.png",
+        "alt": "High Performance Geo-Computing (HPGC) logo"
+      }
+    },
+    {
+      "id": "captain",
+      "role": "Research Intern",
+      "group": "CAPTAIN",
+      "institution": "Wuhan University",
+      "lab_lead": "Gui-Song Xia",
+      "mentor": "Chao Pang",
+      "start": "2025-11",
+      "end": "2026-02",
+      "focus": "Multimodal Large Models for Remote Sensing",
+      "summary": "Multimodal remote sensing research, including interactive segmentation agents and continual vision-language learning.",
+      "contributions": [
+        "Literature review and research design",
+        "Training data preparation, baseline reproduction, and model fine-tuning",
+        "Evaluation, visualization, and scientific writing"
+      ],
+      "sources": [
+        "user-current",
+        "resume"
+      ],
+      "date_note": "The user's current message supersedes the CV's November 2025–March 2026 internship date.",
+      "group_url": "http://www.captain-whu.com/en/",
+      "supervision": "Supervised by Dr. Chao Pang",
+      "logo": {
+        "path": "assets/images/logos/captain.png",
+        "alt": "CAPTAIN logo"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "typhoonsar",
+      "title": "Coastal Tropical-Cyclone SAR Remote Sensing",
+      "subtitle": "TC-SAR-Coast · TyphoonSAR-Copilot",
+      "summary": "An event-based Sentinel-1 IW SAR dataset and an open GeoAI system for coastal tropical-cyclone wind-structure analysis, scene exploration, and evidence-grounded scientific questions.",
+      // "inventory": {
+      //   "tropical_cyclone_events": 277,
+      //   "event_track_directories": 411,
+      //   "sar_scenes": 3128
+      // },
+      "links": {
+        "dataset": "https://modelscope.cn/datasets/wyswyswys/TC-SAR-Coast",
+        "studio": "https://modelscope.cn/studios/wyswyswys/TyphoonSAR-Copilot",
+        "zenodo": "https://zenodo.org/records/20569238",
+        "dataset_doi": "https://doi.org/10.5281/zenodo.20569238",
+        "preprint": "https://essd.copernicus.org/preprints/essd-2026-465/"
+      },
+      "metric_ids": [
+        "modelscope-dataset-downloads",
+        "modelscope-studio-visits"
+      ],
+      "sources": [
+        "user-current",
+        "coast-preprint",
+        "modelscope-dataset",
+        "modelscope-studio",
+        "zenodo"
+      ],
+      "banner": {
+        "path": "assets/images/banner_TyphoonSAR-Copilot.png",
+        "alt": "TyphoonSAR-Copilot: open GeoAI visualization and question answering for tropical-cyclone SAR wind fields",
+        "width": 1988,
+        "height": 791
+      }
+    }
+  ],
+  "awards": [
+    {
+      "title": "Third Prize, 2026 AP-GARSS Open Source GeoAI Practice Challenge Final",
+      // "event": "AP-GARSS 2026",
+      "role": "Project Leader",
+      "date": "2026-10",
+      "team": "HPGCTeam",
+      "sources": [
+        "user-current",
+        "apgarss-official"
+      ],
+      "verification": "Prize reported by user; finalist project independently listed by the conference. Final prize result not found on the checked public pages."
+    },
+    {
+      "title": "First Prize, China Robotics and Artificial Intelligence Competition",
+      "date": "2026",
+      "role": "Project Leader",
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "title": "First Prize, National College Student Integrated Circuit Innovation and Entrepreneurship Competition",
+      "date": "2025",
+      // "role": "Core Team Member",
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "title": "First Prize, National English Competition for College Students",
+      "date": "2025-05",
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "title": "National Scholarship",
+      "date": "2024",
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "title": "First-Class Scholarship, Wuhan University",
+      "date": null,
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "title": "Outstanding Student, Wuhan University",
+      "date": null,
+      "sources": [
+        "resume"
+      ]
+    }
+  ],
+  "talks": [
+    {
+      "event": "2026 IEEE Asia-Pacific Geoscience and Remote Sensing Symposium (AP-GARSS 2026)",
+      "session": "SS095: Open Source GeoAI Practice with ModelScope",
+      "format": "Oral presentation",
+      "date": "2026-10",
+      "location": "Qingdao, China",
+      "project_title": "TyphoonSAR-Copilot: An Open GeoAI Visualization and Question-Answering System for Coastal Tropical-Cyclone SAR Wind Fields",
+      "exact_talk_title": null,
+      "sources": [
+        "user-current",
+        "apgarss-official",
+        "modelscope-competition"
+      ]
+    }
+  ],
+  "service_and_interests": [
+    {
+      "title": "Associate Principal, First Violin Section",
+      "organization": "Wuhan University Student Symphony Orchestra",
+      // "summary": "Performed in dozens of concerts with the orchestra and contributed to its publicity work.",
+      "sources": [
+        "resume",
+        "user-portrait"
+      ]
+    },
+    {
+      "title": "Tenor Section Leader",
+      "organization": "Xinghai Choir, Electronic Information School, Wuhan University",
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "title": "Student Mentoring and Class Service",
+      "organization": "Electronic Information School, Wuhan University",
+      "sources": [
+        "resume"
+      ],
+      "details": [
+        "Academic representative of the 2023 Zhuguang class.",
+        "Assistant class advisor for the 2024 and 2026 cohorts.",
+        "Peer mentor for the 2024 and 2025 cohorts."
+      ]
+    }
+  ],
+  "skills_optional": {
+    "programming": [
+      "Python",
+      "C",
+      "C++",
+      "MATLAB"
+    ],
+    "english": {
+      "CET-6": 626,
+      "CET-4": 639
+    },
+    "sources": [
+      "resume"
+    ]
+  },
+  "website_preferences": {
+    "hosting": "GitHub Pages",
+    "github_username": "WYS-WHU",
+    "suggested_repository": "WYS-WHU.github.io",
+    "suggested_url": "https://wys-whu.github.io/",
+    "repository_creation_or_deployment_performed": false,
+    "references": [
+      "https://saurychen.github.io/",
+      "https://dongrunmin.github.io/"
+    ],
+    "publication_images": "Use the main architecture/framework figure; use the dataset construction workflow for TC-SAR-Coast.",
+    "publication_paused": true
+  },
+  "about_links": [
+    {
+      "text": "HPGC group",
+      "url": "https://www.thuhpgc.net/"
+    },
+    {
+      "text": "CAPTAIN group",
+      "url": "http://www.captain-whu.com/en/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-10",
+      "text": "I presented our open-source work at AP-GARSS 2026 (SS095) and received a Third Prize in the Open Source GeoAI Practice Challenge final. Our HPGCTeam was one of 8 finalists selected from 33 participating teams (8/33).",
+      "links": [
+        {
+          "text": "AP-GARSS 2026",
+          "url": "https://apgarss.com/website/GeoAI-Challenge"
+        }
+      ],
+      "emphasis": [
+        "Third Prize",
+        "HPGCTeam",
+        "8/33"
+      ]
+    }
+  ],
+  "section_images": {
+    "about": [],
+    "publications": [],
+    "open-source": [],
+    "experience": [],
+    "education": [],
+    "honors": [],
+    "beyond": []
+  },
+  "service_intro": "Outside research, music is an important part of my life. I play the violin and sing tenor.",
+  "sidebar_bio": [
+    "Undergraduate in Electronic Information Engineering, Wuhan University.",
+    "Incoming master's student in Large Model Science and Engineering, Tsinghua University (Sep 2027)."
+  ],
+  "location": "Wuhan, China"
+}
