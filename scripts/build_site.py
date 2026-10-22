@@ -300,7 +300,7 @@ def main():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
     (OUTPUT / "assets").mkdir(parents=True)
-    for name in ["styles.css", "main.js", "visitor-stats.js", "favicon.svg"]:
+    for name in ["styles.css", "main.js", "visitor-stats.js"]:
         shutil.copy2(ROOT / "site" / name, OUTPUT / "assets" / name)
     font_source = ROOT / "assets" / "fonts"
     if not (font_source / "fonts.css").is_file():
@@ -310,6 +310,7 @@ def main():
     selected_images = [profile["portrait"]["path"], *(paper["image"]["path"] for paper in visible_papers if paper.get("image")), *(item["path"] for images in profile.get("section_images", {}).values() for item in images if item.get("visible", True))]
     selected_images += [item['logo']['path'] for section in ['education', 'research_experience'] for item in profile[section] if item.get('visible', True) and item.get('logo')]
     selected_images += [item['banner']['path'] for item in profile['projects'] if item.get('visible', True) and item.get('banner')]
+    selected_images += ['assets/images/logos/usagi.jpg']
     selected_images = list(dict.fromkeys(selected_images))
     for relative in selected_images:
         source = (ROOT / relative).resolve()
