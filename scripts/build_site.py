@@ -229,6 +229,21 @@ def public_metrics(metrics):
     return {"observed_at": metrics["observed_at"], "items": [{"id": item["id"], "value": item["value"]} for item in metrics["items"]]}
 
 
+def visitor_stats_html(analytics):
+    if not analytics.get('enabled'):
+        return ''
+    for key in ['image_url', 'stats_url']:
+        parsed = urlparse(analytics[key])
+        if parsed.scheme != 'https' or not parsed.hostname.endswith('.flagcounter.com'):
+            raise ValueError('Visitor widget must use the configured HTTPS Flag Counter service')
+    return f'''<section class="visitor-section" id="visitors" aria-labelledby="visitors-heading" data-hostname="{text(analytics['hostname'])}" data-image-url="{text(analytics['image_url'])}" data-stats-url="{text(analytics['stats_url'])}">
+        <h2 id="visitors-heading">Visitors around the world</h2>
+        <div class="visitor-map" id="visitor-map"><p class="visitor-status" role="status">Loading visitor map…</p></div>
+        <p class="visitor-caption">Approximate locations by IP · Since Oct 2026<br>{link(analytics['stats_url'], 'Visit statistics')}<span aria-hidden="true"> · </span>{link('https://flagcounter.com/privacy.html', 'Flag Counter privacy')}</p>
+        <noscript><p>JavaScript is required to display live visitor statistics.</p></noscript>
+      </section>'''
+
+
 class PageAudit(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -254,6 +269,7 @@ def main():
     profile = read_json("profile")
     publications = read_json("publications")
     metrics = read_json("metrics")
+    analytics = read_json("analytics")
     replacements = {
         "PROFILE": profile_html(profile),
         "ABOUT": "".join("<p>" + rich_text(paragraph, profile.get("about_links", [])) + "</p>" for paragraph in profile["about"]),
@@ -269,6 +285,7 @@ def main():
         "UPDATED": date.fromisoformat(profile["updated_on"]).strftime("%B %d, %Y"),
         "EMAIL": text(profile["email"])
     }
+    replacements['VISITOR_STATS'] = visitor_stats_html(analytics)
     for section in ["about", "publications", "open-source", "experience", "education", "honors", "beyond"]:
         replacements["ICON_" + section.upper().replace("-", "_")] = icon(section, 21)
         replacements["IMAGES_" + section.upper().replace("-", "_")] = section_images_html(profile, section)
@@ -283,7 +300,7 @@ def main():
     if OUTPUT.exists():
         shutil.rmtree(OUTPUT)
     (OUTPUT / "assets").mkdir(parents=True)
-    for name in ["styles.css", "main.js", "favicon.svg"]:
+    for name in ["styles.css", "main.js", "visitor-stats.js", "favicon.svg"]:
         shutil.copy2(ROOT / "site" / name, OUTPUT / "assets" / name)
     font_source = ROOT / "assets" / "fonts"
     if not (font_source / "fonts.css").is_file():

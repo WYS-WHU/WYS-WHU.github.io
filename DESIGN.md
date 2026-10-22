@@ -256,3 +256,8 @@ Links and buttons use a 2px teal `:focus-visible` outline with a 5px offset. A k
 - **Don't** substitute glyph characters for the existing SVG icon language.
 
 Not canonized: this incremental source-based synchronization records no new screenshot or craft-review verdict. It does not extend the earlier review to the changed build. No implementation or public-content repairs were made in this documentation pass.
+
+
+### Visitor statistics
+
+The last section above the copyright footer contains a centered original Flag Counter world-map image showing visitor countries and cumulative page views. Its native geography, flags, counter text and attribution remain intact; the image scales proportionally to fit smaller screens. A compact serif heading and muted source/privacy links use the existing typography. Loading, unavailable and local-preview messages replace invented values. The counter image loads once on each production page load, never on development previews, and does not wait for a footer scroll. No third-party analytics JavaScript is injected. Configuration is in content/analytics.json. Print hides the visitor section.

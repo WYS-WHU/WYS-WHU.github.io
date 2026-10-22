@@ -46,3 +46,6 @@ content/profile.json, content/publications.json, content/metrics.json, content/s
 - Treat factual uncertainty as missing data, not decoration or invented copy.
 
 Revision: identity rail uses two short biography sentences and Wuhan location. Education has school logos and no lab affiliation. Research records have lab logos. The open-source project banner sits directly beneath its title. Finalist-team disclosure removed; the 8/33 news sentence remains.
+
+- Footer visitor geography and page-view totals use one original Flag Counter map image, configured in content/analytics.json. Tracking runs only on the production HTTPS hostname; local previews never send events. Geography is approximate by IP, counts start at installation, and unavailable services never become fabricated zeros.
+- The repository README contains only the homepage URL; the original local README is preserved with a Git skip-worktree flag.
