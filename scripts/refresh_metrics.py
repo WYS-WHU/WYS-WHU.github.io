@@ -5,6 +5,8 @@ Only replaces metrics.json after BOTH requested counters have been validated.
 """
 import json
 import re
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -16,9 +18,21 @@ STUDIO_URL = "https://modelscope.cn/studios/wyswyswys/TyphoonSAR-Copilot"
 
 
 def get_text(url):
-    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(request, timeout=25) as response:
-        return response.read().decode("utf-8")
+    # Both names are official public ModelScope endpoints. Overseas runners can
+    # intermittently time out on one CDN route; retry only transient failures.
+    alternate = url.replace("https://modelscope.cn/", "https://www.modelscope.cn/")
+    for attempt, (target, timeout) in enumerate([(alternate, 25), (url, 25), (alternate, 40)]):
+        request = urllib.request.Request(target, headers={"User-Agent": "Mozilla/5.0"})
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                return response.read().decode("utf-8")
+        except urllib.error.HTTPError as error:
+            if error.code not in {408, 429, 500, 502, 503, 504} or attempt == 2:
+                raise
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            if attempt == 2:
+                raise
+        time.sleep(2)
 
 
 def counter(value, field):

@@ -10,6 +10,7 @@ on:
       - 'site/**'
       - 'assets/**'
       - 'scripts/build_site.py'
+      - 'scripts/refresh_metrics.py'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
   schedule:
@@ -35,9 +36,12 @@ jobs:
         uses: actions/checkout@v6
       - name: Refresh public ModelScope counters
         id: counters
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[refresh-counters]')
         continue-on-error: true
         run: python3 scripts/refresh_metrics.py
+      - name: Report counter refresh fallback
+        if: steps.counters.outcome == 'failure'
+        run: echo "ModelScope counters could not be refreshed. The last validated snapshot is retained." >> "$GITHUB_STEP_SUMMARY"
       - name: Preserve the validated counter snapshot
         if: steps.counters.outcome == 'success'
         run: |
