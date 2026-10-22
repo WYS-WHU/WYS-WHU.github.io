@@ -304,13 +304,13 @@
     "github_username": "WYS-WHU",
     "suggested_repository": "WYS-WHU.github.io",
     "suggested_url": "https://wys-whu.github.io/",
-    "repository_creation_or_deployment_performed": false,
+    "repository_creation_or_deployment_performed": true,
     "references": [
       "https://saurychen.github.io/",
       "https://dongrunmin.github.io/"
     ],
     "publication_images": "Use the main architecture/framework figure; use the dataset construction workflow for TC-SAR-Coast.",
-    "publication_paused": true
+    "publication_paused": false
   },
   "about_links": [
     {

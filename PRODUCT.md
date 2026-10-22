@@ -28,7 +28,7 @@ Introduce Yishan Wang and let readers find his papers, reusable datasets, live M
 - Publication images use the extracted main model/framework diagrams.
 - ModelScope platform counts refresh automatically every 10 minutes while the loopback preview runs; the visible browser polls its cache every minute. Keep last successful values on failure. Observation dates remain in JSON only; these counts are not unique users.
 - Website output must contain only selected public material, never the raw CV, PPTs, source index, or work evidence.
-- GitHub publication is explicitly paused. No remote repository creation, push, or publication has been performed.
+- GitHub publication is explicitly authorized. Public repository: WYS-WHU/WYS-WHU.github.io. GitHub Pages publishes only the generated dist. The workflow refreshes validated ModelScope counters every six hours and redeploys; network failures preserve the stored snapshot.
 
 ## Brand Commitments
 

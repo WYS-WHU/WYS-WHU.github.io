@@ -12,6 +12,8 @@ on:
       - 'scripts/build_site.py'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
 
 permissions:
   contents: read
@@ -25,9 +27,28 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
     steps:
       - name: Check out source
         uses: actions/checkout@v6
+      - name: Refresh public ModelScope counters
+        id: counters
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        run: python3 scripts/refresh_metrics.py
+      - name: Preserve the validated counter snapshot
+        if: steps.counters.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/metrics.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Update public ModelScope counters"
+          git push origin HEAD:main
       - name: Build the static site
         run: python3 scripts/build_site.py
       - name: Configure Pages
