@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "observed_at": "2026-10-23T01:18:40+08:00",
+  "observed_at": "2026-10-23T05:43:55+08:00",
   "timezone": "Asia/Shanghai",
   "display_note": "Platform counters as of the observation date; not unique users or verified full-dataset acquisitions.",
   "items": [
     {
       "id": "modelscope-dataset-downloads",
       "label": "ModelScope dataset downloads",
-      "value": 33440,
+      "value": 33453,
       "unit": "platform-counted downloads",
       "url": "https://modelscope.cn/datasets/wyswyswys/TC-SAR-Coast",
       "source_url": "https://modelscope.cn/api/v1/datasets/wyswyswys/TC-SAR-Coast",
@@ -17,7 +17,7 @@
     {
       "id": "modelscope-studio-visits",
       "label": "ModelScope Studio visits",
-      "value": 2179,
+      "value": 2181,
       "unit": "visits",
       "url": "https://modelscope.cn/studios/wyswyswys/TyphoonSAR-Copilot",
       "source_url": "https://modelscope.cn/studios/wyswyswys/TyphoonSAR-Copilot",
