@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observed_at": "2026-10-29T06:41:14+08:00",
+  "observed_at": "2026-10-29T13:58:26+08:00",
   "timezone": "Asia/Shanghai",
   "display_note": "Platform counters as of the observation date; not unique users or verified full-dataset acquisitions.",
   "items": [
@@ -17,7 +17,7 @@
     {
       "id": "modelscope-studio-visits",
       "label": "ModelScope Studio visits",
-      "value": 2214,
+      "value": 2215,
       "unit": "visits",
       "url": "https://modelscope.cn/studios/wyswyswys/TyphoonSAR-Copilot",
       "source_url": "https://modelscope.cn/studios/wyswyswys/TyphoonSAR-Copilot",
